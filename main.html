@@ -1,15 +1,42 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<title>HTML Assignment 3</title>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <title>HTML Assignment 3</title>
 
+    <style>
+        table {
+            border: 1px solid black;
+            border-spacing: 1px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 1px;
+        }
+
+        .middle {
+            margin: 20px auto;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-	
 
     <h1 style="text-align:center;">HTML Assignment #3</h1>
 
@@ -35,7 +62,7 @@
     <!-- Table 2 -->
     <table id="table-2" class="middle">
         <tr>
-            <td id="t21" colspan="6">Header (Colspan 6)</td>
+            <td id="t21" colspan="6" class="center">Header (colspan 6)</td>
         </tr>
         <tr>
             <td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
@@ -57,7 +84,7 @@
     <!-- Table 3 -->
     <table id="table-3" class="middle">
         <tr class="green">
-            <td>Header Row</td>
+            <td>Top Row</td>
         </tr>
         <tr>
             <td id="t-image">
@@ -65,13 +92,9 @@
             </td>
         </tr>
         <tr class="blue">
-            <td>Footer Row</td>
+            <td>Bottom Row</td>
         </tr>
     </table>
 
-    <script type="text/javascript" src="./script.js">
-</script>
-
 </body>
-
 </html>
